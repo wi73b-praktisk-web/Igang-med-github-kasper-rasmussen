@@ -16,5 +16,3 @@
 ```javascript
 console.log('halløj');
 ```
-```
-```
