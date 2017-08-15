@@ -11,6 +11,9 @@
 - Sæt flueben ved "Initialize this repository with a README" for at oprette en ReadMe fil.
 - Til sidst skal du vælge om du vil have gitignore og license oprette i dit repository.
 
+# Markdown
+```javascript
 ```javascript
 console.log('halløj');
+```
 ```
