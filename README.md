@@ -12,9 +12,7 @@
 - Til sidst skal du vælge om du vil have gitignore og license oprette i dit repository.
 
 # Markdown
-```javascript
+
 ```javascript
 console.log('halløj');
-```
-
 ```
