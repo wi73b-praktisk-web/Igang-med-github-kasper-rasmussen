@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+
+    </div>
+    <script>
+        fetch('https://swapi.co/api/people/lort')
+        .then((response) => {
+            if (response.status == 200) {
+                return respons.json();
+            } else {
+                throw new Error("Lort med lort på");
+            }
+        })
+
+        .then((json) => {
+            var content = document.getElementById('content');
+            json.results.forEach(function(element) {
+                content.innerHTML += '<h1>' + element.name + '</h1>';
+            }, this);
+        })
+        
+        .catch((Error) => {
+            console.log(Error);
+        })
+    </script>
+</body>
+</html>

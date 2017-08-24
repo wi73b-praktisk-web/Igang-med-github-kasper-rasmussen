@@ -1,0 +1,23 @@
+{
+  "name": "igang-med-github-kasper-rasmussen",
+  "version": "1.0.0",
+  "description": "Dette er bare en test",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi73b-praktisk-web/Igang-med-github-kasper-rasmussen.git"
+  },
+  "author": "Kasper Rasmussen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wi73b-praktisk-web/Igang-med-github-kasper-rasmussen/issues"
+  },
+  "homepage": "https://github.com/wi73b-praktisk-web/Igang-med-github-kasper-rasmussen#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
